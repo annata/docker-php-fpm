@@ -1,4 +1,4 @@
-FROM php:7.2-fpm-alpine
+FROM php:7.3-fpm-alpine
 COPY php.ini /usr/local/etc/php/conf.d/
 ENV PHPREDIS_VERSION="php7"
 
